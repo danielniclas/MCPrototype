@@ -85,6 +85,7 @@ body {
   color: white;
   font-size: 72px;
   font-weight: 800;
+  margin-bottom: 15px;
 }
 
 .iconCluster {
@@ -264,10 +265,18 @@ body {
 
   .tagLine {
     font-size: 30px;
+    margin-bottom: 25px;
   }
-  .leadOne, .leadTwo {
-    font-size: 2px;
+  .leadOne {
+    font-size: 15px;
     line-height: 20px;
+    margin-bottom: 25px !important;
+  }
+
+  .leadTwo {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 25px;
   }
 
   .leadThree, .leadFour  {
@@ -278,7 +287,7 @@ body {
   }
   .addBtnTxt {
     font-size: 15px !important;
-    margin: 15px 0 15px 0 !important;
+    margin: 15px 0 25px 0 !important;
   }
 
   .footerLink{
