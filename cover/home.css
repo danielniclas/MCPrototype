@@ -33,12 +33,17 @@ body {
   color: #fff;
   text-align: center;
   background-image: url("../assets/img/layer-5.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   font-family: CeraGR, sans-serif, serif;
 }
 
 @font-face {
   font-family: CeraGR;
+  src: url(../assets/font/Cera%20GR.otf);
+}
+
+@font-face {
+  font-family: CeraGRThin;
   src: url(../assets/font/Cera%20GR%20Thin.otf);
 }
 
@@ -56,6 +61,7 @@ body {
 }
 
 .navLinks {
+  font-family: CeraGRThin, sans-serif, serif;
   width:65px;
   height: 14px;
   color: white;
@@ -112,15 +118,12 @@ body {
   margin-left: 25px;
 }
 
-
-/* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
-          /*box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -131,11 +134,10 @@ body {
   margin-left: auto;
 }
 
-/* Padding for spacing */
+
 .inner {
   padding: 30px;
 }
-
 
 /*
  * Header
