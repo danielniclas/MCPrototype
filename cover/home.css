@@ -39,12 +39,27 @@ body {
 
 @font-face {
   font-family: CeraGR;
-  src: url(../assets/font/Cera%20GR.otf);
+  src: url(../assets/cera/Cera%20GR.otf);
 }
 
 @font-face {
   font-family: CeraGRThin;
-  src: url(../assets/font/Cera%20GR%20Thin.otf);
+  src: url(../assets/cera/Cera%20GR%20Thin.otf);
+}
+
+@font-face {
+  font-family: CeraGRLight;
+  src: url(../assets/cera/Cera%20GR%20Light.otf);
+}
+
+@font-face {
+  font-family: GothamLight;
+  src: url(../assets/gotham/GOTHAM-LIGHT.TTF);
+}
+
+@font-face {
+  font-family: GothamMedium;
+  src: url(../assets/gotham/GOTHAM-MEDIUM.TTF);
 }
 
 .navBarWidth {
@@ -92,6 +107,8 @@ body {
   line-height: 26px;
 }
 .leadThree, .leadFour  {
+  font-family: CeraGRThin, sans-serif, serif;
+  letter-spacing: 1px;
   color: #ededed;
   font-size: 14px;
   font-weight: 400;
@@ -105,10 +122,11 @@ body {
   color: #2a2a2a;
   font-size: 15px;
   font-weight: 400;
-  margin: 35px 0 35px 0;
+  margin: 35px 0 25px 0;
 }
 .footerText{
-  color: #b1b1b1 !important;
+  font-family: GothamMedium, sans-serif, serif;
+  color: #b1b1b1;
   font-size: 12px;
   font-weight: 300;
   line-height: 18px;
