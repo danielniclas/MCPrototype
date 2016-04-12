@@ -62,9 +62,6 @@ body {
   src: url(assets/gotham/GOTHAM-MEDIUM.TTF);
 }
 
-.navBarWidth {
-  width: 1200px !important;
-}
 
 .logoText {
   color: white;
@@ -130,7 +127,7 @@ body {
   font-size: 12px;
   font-weight: 300;
   line-height: 18px;
-  margin-bottom: 0 !important;
+  margin: 10px 0 0 0 !important;
 }
 .footerLink{
   margin-left: 25px;
@@ -257,6 +254,43 @@ body {
   .mastfoot,
   .cover-container {
     /*width: 700px;*/
-    width: 1100px;
+    width: 100%;
   }
+}
+
+/*  ~!~~~~~~~~~~~~~~~  MEDIA QUERY  ~~~~~~~~~~~~~~~~~~~~~  */
+
+@media (max-width: 768px){
+
+  .tagLine {
+    font-size: 30px;
+  }
+  .leadOne, .leadTwo {
+    font-size: 2px;
+    line-height: 20px;
+  }
+
+  .leadThree, .leadFour  {
+    letter-spacing: 0 !important;
+    font-size: 12px !important;
+    line-height: 15px;
+    margin-bottom: 0 !important;
+  }
+  .addBtnTxt {
+    font-size: 15px !important;
+    margin: 15px 0 15px 0 !important;
+  }
+
+  .footerLink{
+    margin-left: 5px !important;
+  }
+  .alter {
+    display: none;
+  }
+
+  body {
+    /*background-repeat: repeat-y !important;*/
+    background-color: black;
+  }
+
 }
