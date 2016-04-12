@@ -32,34 +32,34 @@ body {
 body {
   color: #fff;
   text-align: center;
-  background-image: url("../assets/img/layer-5.jpg");
+  background-image: url("assets/img/layer-5.jpg");
   background-repeat: repeat-x;
   font-family: CeraGR, sans-serif, serif;
 }
 
 @font-face {
   font-family: CeraGR;
-  src: url(../assets/cera/Cera%20GR.otf);
+  src: url(assets/cera/Cera%20GR.otf);
 }
 
 @font-face {
   font-family: CeraGRThin;
-  src: url(../assets/cera/Cera%20GR%20Thin.otf);
+  src: url(assets/cera/Cera%20GR%20Thin.otf);
 }
 
 @font-face {
   font-family: CeraGRLight;
-  src: url(../assets/cera/Cera%20GR%20Light.otf);
+  src: url(assets/cera/Cera%20GR%20Light.woff);
 }
 
 @font-face {
   font-family: GothamLight;
-  src: url(../assets/gotham/GOTHAM-LIGHT.TTF);
+  src: url(assets/gotham/GOTHAM-LIGHT.TTF);
 }
 
 @font-face {
   font-family: GothamMedium;
-  src: url(../assets/gotham/GOTHAM-MEDIUM.TTF);
+  src: url(assets/gotham/GOTHAM-MEDIUM.TTF);
 }
 
 .navBarWidth {
