@@ -1,0 +1,259 @@
+body {
+  padding-top: 50px;
+}
+
+@font-face {
+  font-family: CeraGR;
+  src: url(assets/cera/Cera%20GR.otf);
+}
+
+@font-face {
+  font-family: CeraGRThin;
+  src: url(assets/cera/Cera%20GR%20Thin.otf);
+}
+
+@font-face {
+  font-family: CeraGRLight;
+  src: url(assets/cera/Cera%20GR%20Light.woff);
+}
+
+@font-face {
+  font-family: GothamLight;
+  src: url(assets/gotham/GOTHAM-LIGHT.TTF);
+}
+
+@font-face {
+  font-family: GothamMedium;
+  src: url(assets/gotham/GOTHAM-MEDIUM.TTF);
+}
+
+.logoText {
+  color: #82888d;
+  /*font-family: Metacert;*/
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.logoText:hover {
+  text-decoration: underline;
+}
+
+.navLinks {
+  font-family: CeraGRThin, sans-serif, serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.navImg {
+  margin: 10px 0 0 0;
+}
+.navImgArrow {
+  margin: 15px 0 0 8px;
+}
+.nav>li>a{
+  color: #82888d;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: underline;
+  background-color: white;
+}
+.navbar-header>.navbar-toggle>.icon-bar {
+  background-color: #82888d;
+}
+
+.containerFormat {
+  margin-top: 100px;
+}
+
+.leadHead {
+  color: #82888d;
+  font-family: CeraGR, sans-serif, serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.leadContent {
+  color: #82888d;
+  font-family: CeraGR, sans-serif, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.secondHead {
+  color: #82888d;
+  font-family: CeraGR, sans-serif, serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+h4 {
+  margin-top: 25px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.row .row {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.btn-update {
+  background: #46c59b;
+  color: #ffffff;
+  font-family: CeraGR, sans-serif, serif;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  
+  padding: 13px 115px;
+  border: 0 none;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.navbar-inverse {
+  background-color: white;
+  border-color: white;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*CheckBox Switch*/
+
+.toggleFormat {
+  padding: 9px 0 11px 0;
+}
+.switch-ios input:checked + label {
+  color: white !important;
+}
+.switchText {
+  font-family: CeraGR, sans-serif, serif;
+}
+.switchFormat {
+  padding: 60px 0 0 10px;
+  /*margin-left: 15px;*/
+}
+.updateFormat {
+  margin:30px 0 30px 0;
+}
+.imgFormat {
+  margin: 10px 0 10px 0;
+}
+.addMargin {
+  margin-top: 18px;
+}
+.navFormat{
+  margin-top: 15px;
+}
+.center {
+  margin: auto;
+  width: 30%;
+}
+
+/*Toggle Switch*/
+
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+input.cmn-toggle-round + label {
+  padding: 2px;
+  width: 81px;
+  height: 41px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+
+input.cmn-toggle-round + label:before,
+input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+
+input.cmn-toggle-round + label:before {
+
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+
+/*floating button*/
+input.cmn-toggle-round + label:after {
+  width: 47px;
+  height: 37px;
+  background-color: #fff;
+  border-radius: 18px;
+  transition: margin 0.4s;
+  box-shadow: 0 6px 4px rgba(207, 207, 207, 0.7);
+}
+
+input.cmn-toggle-round:checked + label:before {
+  background-color: #46c59b;
+}
+
+/*Distance Traveled*/
+input.cmn-toggle-round:checked + label:after {
+  margin-left: 32px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height:90px;
+  background-color: white;
+}
+
+.stickeyFooterText{
+  font-family: GothamMedium, sans-serif, serif;
+  color: #b1b1b1;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 25px 0 10px 0 !important;
+}
+
+a.footerLink{
+  margin-left: 25px;
+  color: #b1b1b1;
+}

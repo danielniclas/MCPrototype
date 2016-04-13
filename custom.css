@@ -74,13 +74,14 @@ body {
 
 .navLinks {
   font-family: CeraGRThin, sans-serif, serif;
-  width:65px;
-  height: 14px;
+  /*width:65px;*/
+  /*height: 14px;*/
   color: white;
   font-size: 15px;
   font-weight: 400;
-
+  margin-left: 25px !important;
 }
+
 .tagLine {
   color: white;
   font-size: 72px;
@@ -130,6 +131,16 @@ body {
   line-height: 18px;
   margin: 10px 0 0 0 !important;
 }
+
+.stickeyFooterText{
+  font-family: GothamMedium, sans-serif, serif;
+  color: #b1b1b1;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  margin: 25px 0 20px 0 !important;
+}
+
 .footerLink{
   margin-left: 25px;
 }
@@ -300,6 +311,8 @@ body {
   body {
     /*background-repeat: repeat-y !important;*/
     background-color: black;
+    /*height: 80%;*/
   }
 
 }
+
