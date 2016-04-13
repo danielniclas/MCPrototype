@@ -27,6 +27,10 @@ body {
   src: url(assets/gotham/GOTHAM-MEDIUM.TTF);
 }
 
+input[type="radio"] {
+  outline: none !important;
+}
+
 .logoText {
   color: #82888d;
   /*font-family: Metacert;*/

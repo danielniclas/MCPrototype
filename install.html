@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles -->
     <link href="install.css" rel="stylesheet">
@@ -56,7 +56,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="navLinks"><a href="index.html">Configuration</a></li>
                 <li class="navLinks"><a href="index.html">Support</a></li>
-                <li class="navLinks"><a href="index.html">Metacert</a></li>
+                <li class="navLinks"><a href="index.html">MetaCert</a></li>
                 <li class="navImg"><img src="assets/img/layer-15.png"></li>
                 <li class="navImgArrow"><img src="assets/img/layer-13.png"></li>
             </ul>
@@ -69,9 +69,9 @@
     <div class="row">
         <div class="col-md-1"></div>
         <div class="col-md-10">
-            <p class="leadHead">Thank you for installing Metacert for Slack</p>
+            <p class="leadHead">Thank you for installing MetaCert for Slack</p>
             <p class="leadContent">MetaCert will now silently monitor your messages and alert users when a malicious or inappropiate link
-            has been posted to a channel.  Please note that MetaCert will monitor all channels by default - you can select specific channels below</p>
+            has been posted to a channel.  Please note that MetaCert will monitor all channels by default - you can select specific channels below.</p>
         </div>
     </div>
 
@@ -101,7 +101,7 @@
         <div class="col-md-8">
             <p class="secondHead">Phishing & Malware Alerts</p>
             <p class="leadContent">This option will send an alert to a channel when a web link has been reported as a Web
-            Forgery of a legitimate site, as a source of Unwanted Software or as an Attack Site designed to harm your phone or computer</p>
+            Forgery of a legitimate site, as a source of Unwanted Software or as an Attack Site designed to harm your phone or computer.</p>
         </div>
 
         <div class="col-md-1 col-md-offset-1 switchFormat">
@@ -118,7 +118,7 @@
             <p class="secondHead">Phishing & Malware Alerts</p>
             <p class="leadContent">This option will send an alert to a channel when an inappropriate link has been detected.  Pornography isn't
             just inappropriate for work, it can harm your phone, computer, or compromise your corporate network with makware, spyware & other forms
-            of malicious software</p>
+            of malicious software.</p>
         </div>
 
         <div class="col-md-1 col-md-offset-1 switchFormat">
@@ -180,6 +180,13 @@
         </div>
 </footer>
 
+
+<script>
+    //  Remove radio button accessibility feature:  border on select:
+    $("input[type=radio]").click(function(){$(this).blur();});
+//    $("input[type=radio]").click(function(){$(this).next().blur();});
+</script>
+
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
@@ -189,6 +196,6 @@
 <!--<script src="../../dist/js/bootstrap.min.js"></script>-->
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
